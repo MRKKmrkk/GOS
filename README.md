@@ -37,4 +37,4 @@ nohup python3 gos/gosServer.py ip port &
 
 链接成功后，单机”Kill GTAV"按钮即可向服务端发送关闭指令，服务端会向所有连接成功的用户发送关闭指令，达到关闭全部队友GTAV进程的效果。
 
-也可以单机”only Kill my GTAV”按钮，此时只会关闭自己电脑上的GTAV进程。此按钮无线与服务器建立链接也能使用。
+也可以单机”only Kill my GTAV”按钮，此时只会关闭自己电脑上的GTAV进程。此按钮无需与服务器建立链接也能使用。
