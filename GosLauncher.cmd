@@ -1,0 +1,1 @@
+gos\py38-win\python.exe gos\gosClient.py

@@ -1,0 +1,3 @@
+E:/Projects/GOS/GTAProcessTerminate/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/Projects/GOS/GTAProcessTerminate/cmake-build-debug/CMakeFiles/GTAProcessTerminate.dir
+E:/Projects/GOS/GTAProcessTerminate/cmake-build-debug/CMakeFiles/edit_cache.dir
