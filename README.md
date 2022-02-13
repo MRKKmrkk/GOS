@@ -1,14 +1,14 @@
 # GOS
 
-# 前言
+## 前言
 
 GOS是一个GTAV进程快速结束工具，能做到一键结束进程、一键结束全部队友进程，能阻止GTA数据上传，有效提升GTAV犯罪之神任务的通过率。
 
-# 服务端搭建
+## 服务端搭建
 
 GOS需要一个服务器或有公网IP的主机来搭建一个服务端，通过服务端协同各个用户。
 
-## Linux
+### Linux
 
 克隆项目到本地：
 
@@ -22,7 +22,7 @@ git clone https://github.com/MRKKmrkk/GOS.git
 nohup python3 gos/gosServer.py ip port &
 ```
 
-## Windows
+### Windows
 
 暂未开发，小伙伴们可以自行研究
 
