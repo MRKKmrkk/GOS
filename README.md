@@ -1,4 +1,5 @@
 # GOS
+GTA5犯罪之神进程关闭工具
 
 ## 前言
 
@@ -30,7 +31,7 @@ nohup python3 gos/gosServer.py ip port &
 
 将GOS压缩包下载解压到本地后，进入gos目录，双击gosClient.exe即可运行GOS，会出现以下界面:
 
-![Untitled](Scala%20%E4%B8%AD%E7%9A%84%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%89%B9%E6%80%A7%20bf05f82bd1994b58abac11737d9e00b7/Untitled.png)
+![Untitled](https://github.com/MRKKmrkk/GOS/blob/main/img/1.png)
 
 在server host和server port 文本框中，输入服务端对应的IP和端口，点击connect即可和服务端进行链接，如若出现 ”`connect success!`”则表示链接成功。
 
