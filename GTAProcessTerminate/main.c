@@ -5,7 +5,7 @@
 
 int main() {
 
-    DWORD currentProcess = findProcess("gta5.exe");
+    DWORD currentProcess = findProcess("GTA5.exe");
     int code = killProcess(currentProcess);
 
     return code;
