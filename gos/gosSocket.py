@@ -97,7 +97,7 @@ class GOSConnectionSend(threading.Thread):
                     print("send to " + msg.message)
                     self.connection.sendall(msg.message.encode("utf-8"))
                     self.lastCommunicationTime = GOSUtil.getTimestamp()
-            except ConnectionResetError as cre:
+            except (ConnectionResetError, BrokenPipeError) as es:
                 self.messageQueue.empty(self.uid)
                 logging.debug(self.uid + ":链接已被关闭，回收发送线程")
                 break
