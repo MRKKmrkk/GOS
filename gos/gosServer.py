@@ -14,8 +14,8 @@ class Handler:
 if __name__ == '__main__':
 
     s = GOSSocketServer(
-        sys.argv[0],
-        int(sys.argv[1]),
+        sys.argv[1],
+        int(sys.argv[2]),
         5,
         Handler
     )
