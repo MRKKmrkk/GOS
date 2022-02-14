@@ -115,7 +115,7 @@ class GOSSocketServer(threading.Thread):
         self.messageQueue = GOSMessageQueue()
         self.handler = handler(self.messageQueue)
 
-        logging.basicConfig(filename='debug.log', level=logging.DEBUG,
+        logging.basicConfig(filename='server.log', level=logging.DEBUG,
                             format='%(asctime)s - %(levelname)s - %(message)s')
 
         super(GOSSocketServer, self).__init__()

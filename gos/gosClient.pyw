@@ -14,10 +14,13 @@ class GOSClientListener(threading.Thread):
     def run(self) -> None:
 
         while self.flag:
-            msg = self.client.connection.recv(1024).decode("utf-8")
-            print(msg)
-            if msg == '{"cmd": "kill"}':
-                self.client.killGTAV()
+            try:
+                msg = self.client.connection.recv(1024).decode("utf-8")
+                print(msg)
+                if msg == '{"cmd": "kill"}':
+                    self.client.killGTAV()
+            except ConnectionResetError as cre:
+                break
 
 class GOSClientSend(threading.Thread):
 
